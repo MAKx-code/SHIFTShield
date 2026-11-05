@@ -1,0 +1,33 @@
+﻿# Environment files: keep real credentials local
+.env
+.env.*
+!.env.example
+!.env.local.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.local.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #F5F7FA;
+    color: #1f2937;
+    line-height: 1.6;
+  }
+
+  /* Leaflet overrides */
+  .leaflet-container {
+    font-family: 'Inter', system-ui, sans-serif;
+    border-radius: 12px;
+  }
+}
+
+@layer components {
+  /* Scrollbar styling */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #D1D5DB transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: #D1D5DB;
+    border-radius: 9999px;
+  }
+
+  /* SOS pulse animation */
+  .sos-pulse {
+    animation: pulseRing 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Sidebar transition */
+  .sidebar-transition {
+    transition: width 0.2s ease-in-out;
+  }
+
+  /* Card hover */
+  .card-hover {
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.10), 0 8px 24px rgba(0,0,0,0.06);
+    transform: translateY(-1px);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
