@@ -1,4 +1,4 @@
-# SHIFTShield 2.0
+# SHIFTShield 
 
 ### Workforce Safety & Risk Monitoring Platform
 
@@ -6,13 +6,13 @@
 
 ---
 
-# SHIFTShield 2.0
+# SHIFTShield 
 
 **Occupational Heat Safety & Adaptive Workforce Intelligence Platform**
 
 > Don't just predict the heat. Protect the people working in it.
 
-SHIFTShield 2.0 is an occupational heat-safety and workforce decision-support prototype designed to help supervisors monitor outdoor worker conditions, assess estimated heat-exposure concerns, coordinate tasks, and respond to safety incidents.
+SHIFTShield is an occupational heat-safety and workforce decision-support prototype designed to help supervisors monitor outdoor worker conditions, assess estimated heat-exposure concerns, coordinate tasks, and respond to safety incidents.
 
 The platform combines environmental information, workload, task duration, and worker status to provide explainable risk assessments and actionable safety recommendations.
 
@@ -282,6 +282,6 @@ SHIFTShield-2.0/
 
 ## Hackathon Context
 
-SHIFTShield 2.0 is being developed as part of a hackathon workflow that incorporates IBM Bob into the development process.
+SHIFTShield is being developed as part of a hackathon workflow that incorporates IBM Bob into the development process.
 
 The repository documents the implementation, technical architecture, development approach, and demonstration capabilities of the prototype.
