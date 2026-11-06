@@ -1,5 +1,13 @@
 # SHIFTShield 2.0
 
+### Workforce Safety & Risk Monitoring Platform
+
+🚀 **[OPEN LIVE APPLICATION](https://shift-shield-blue.vercel.app)**
+
+---
+
+# SHIFTShield 2.0
+
 **Occupational Heat Safety & Adaptive Workforce Intelligence Platform**
 
 > Don't just predict the heat. Protect the people working in it.
